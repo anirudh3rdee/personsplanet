@@ -1,0 +1,230 @@
+
+*:focus
+{
+  outline:0 !Important;
+}
+
+.slick-slider, .slick-list, .slick-track {
+  height: 100%;
+}
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-slider
+{
+  margin-bottom: 0px !important;
+}
+
+.slick-slider button {
+  cursor: pointer;
+}
+.slick-slider .slick-track .slick-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slick-arrow, .slick-dots {
+  position: absolute;
+  z-index: 15;
+}
+.slick-arrow {
+  top: 50%;
+}
+.slick-arrow.slick-prev {
+  left: 0;
+}
+.slick-arrow.slick-next {
+  right: 0;
+}
+.slick-dots {
+  width: 100%;
+  bottom: 5%;
+  left: 0;
+  text-align: center;
+}
+.slick-dots li {
+  display: inline-block;
+}
+div#slick-slide21 {
+  /* min-width: 100%; */
+  height: 497px;
+}
+
+/*=========================Start Home Slider=========================*/
+
+.homeSlider {
+    position: relative;
+}
+.homeSlider .slick-slide h1 {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    color: white;
+    font-weight: bold;
+    width: 58%;
+    font-size: 60px;
+}
+.homeSlider .slick-slide a {
+    position: absolute;
+    top: 62%;
+    left: 9%;
+    width: 293px;
+}
+.homeSlider .slick-slide a button {
+	border: 3px solid #f8971c;
+    background: none;
+    padding: 14px;
+    border-radius: 52px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    transition: all 200ms ease-in 0s;
+}
+.homeSlider .slick-slide a button:hover
+{
+  background: #f8971c;
+  color: white;
+}
+.homeSlider .slick-arrow.slick-next {
+    right: 32px;
+}
+.homeSlider .slick-arrow.slick-prev {
+    left: 10px;
+}
+
+.homeSlider .slick-prev:before {
+    font-family: "FontAwesome";
+    content: '\f053';
+    background: none;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    color: #f8971c;
+    font-weight: bold;
+    transition: all 200ms ease-in 0s;
+    background: #000000b0;
+    font-size: 26px;
+}
+.homeSlider .slick-next:before {
+    font-family: "FontAwesome";
+    content: '\f054';
+    background: none;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    color: #f8971c;
+    font-weight: normal;
+    transition: all 200ms ease-in 0s;
+    background: #000000b0;
+    font-size: 26px;
+}
+.homeSlider .slick-prev:hover:before {
+    background: #f8971c ;
+    color: white ;
+}
+.homeSlider .slick-next:hover:before {
+    background: #f8971c ;
+    color: white ;
+}
+.homeSlider ul.slick-dots {
+    display: block !important;
+}
+.homeSlider .slick-dots li button:before {
+    color: #f8971c !important;
+    font-size: 14px;
+}
+@media (max-width: 1365px)
+{
+.homeSlider .slick-slide h1 {
+     width: 67%;
+}
+}
+@media (max-width: 1024px)
+{
+  .homeSlider .slick-slide h1 {
+        width: 84%;
+        top: 20%;
+  }
+  .homeSlider .slick-slide a {
+        top: 68%;
+  }
+}
+@media (max-width: 768px)
+{
+  .homeSlider .slick-slide h1 {
+        top: 10%;
+        font-size: 40px;
+  }
+  .homeSlider .slick-slide a {
+        top: 57%;
+  }
+  .homeSlider .slick-dots {
+   	    bottom: -7%;
+	}
+
+}
+@media (max-width: 600px)
+{
+  .homeSlider .slick-next:before {
+   padding-bottom: 12px;
+   padding-top: 10px;
+   font-size: 14px;
+  }
+  .homeSlider .slick-prev:before {
+   padding-bottom: 12px;
+   padding-top: 10px;
+   font-size: 14px;
+  }
+  .homeSlider ul.slick-dots {
+   	    display: none !important;
+	}
+  .homeSlider .slick-slide h1 {
+      
+      font-size: 30px;
+    }
+}
+@media (max-width: 500px)
+{
+  .homeSlider .slick-slide h1 {
+      top: 10%;
+      font-size: 30px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .homeSlider .slick-slide a {
+      top: 57%;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 260px;
+  }
+  .homeSlider .slick-slide a button
+  {
+    padding: 7px;
+  }
+}
+@media (max-width: 414px)
+{
+	.homeSlider .slick-slide h1 {
+	    top: 5%;
+	    font-size: 26px;
+	}
+}
+@media (max-width: 380px)
+{
+  .homeSlider .slick-slide h1 {
+      font-size: 22px;
+  }
+  .homeSlider .slick-slide a {
+        width: 230px;
+  }
+}
+/*=========================Start Home Slider=========================*/
+
